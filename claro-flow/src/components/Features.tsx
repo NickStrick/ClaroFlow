@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: "Real-time Analytics",
-    description: "Understand what’s working with dynamic dashboards and KPIs.",
+    description: "Understand what is working with dynamic dashboards and KPIs.",
     icon: BarChart2,
   },
   {
@@ -72,7 +72,7 @@ export default function Features() {
     <section id="features" className="py-24 px-6 md:px-12 bg-gray-50 text-gray-800">
       <div className="max-w-4xl mx-auto mb-12 text-center">
         <h2 className="text-4xl font-bold mb-4">Powerful Features</h2>
-        <p className="text-gray-600 text-lg">Everything you need to streamline and scale your team’s productivity.</p>
+        <p className="text-gray-600 text-lg">Everything you need to streamline and scale your team&apos;s productivity.</p>
       </div>
 
       <div ref={ref} className="space-y-12 max-w-3xl mx-auto">

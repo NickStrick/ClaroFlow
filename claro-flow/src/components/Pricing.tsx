@@ -3,6 +3,7 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 const tiers = [
   {
@@ -48,7 +49,7 @@ export default function Pricing() {
   return (
     <section id="pricing" className="relative py-24 px-6 md:px-12 bg-blue-50 text-gray-800">
       <div className="section-background absolute inset-0 overflow-hidden">
-        <img src="https://cdn.svgator.com/images/2022/06/svg-background-geometric-shapes.svg" className="w-[100%] kg-image lightense-target" alt="Background with geometric shapes changing focus" loading="lazy" />
+        <Image src="https://cdn.svgator.com/images/2022/06/svg-background-geometric-shapes.svg" className="w-[100%] kg-image lightense-target" alt="Background with geometric shapes changing focus" loading="lazy" />
       </div>
       <div className="z-30 relative max-w-4xl mx-auto mb-12 text-center">
         <h2 className="text-4xl font-bold mb-4 text-white">Choose Your Plan</h2>

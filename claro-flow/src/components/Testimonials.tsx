@@ -3,6 +3,7 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 const testimonials = [
   {
@@ -63,7 +64,7 @@ export default function Testimonials() {
             className="bg-gray-50 border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition"
           >
             <div className="flex items-center gap-4 mb-4">
-              <img src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full object-cover" />
+              <Image src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full object-cover" />
               <div>
                 <p className="font-semibold">{t.name}</p>
                 <p className="text-sm text-gray-500">{t.role}</p>

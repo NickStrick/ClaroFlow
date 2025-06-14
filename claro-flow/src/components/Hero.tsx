@@ -1,12 +1,13 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 bg-gradient-to-b from-blue-50 to-white">
       <div className="section-background absolute inset-0 overflow-hidden">
         <object type="image/svg+xml" data="https://cdn.svgator.com/images/2022/06/animated-svg-background-css.svg"  width="100%">
-        <img src="https://cdn.svgator.com/images/2022/06/animated-svg-background-css.svg" alt="Example of an SVG animated background" className="lightense-target"/>
+        <Image src="https://cdn.svgator.com/images/2022/06/animated-svg-background-css.svg" alt="Example of an SVG animated background" className="lightense-target"/>
         </object>
       </div>
       

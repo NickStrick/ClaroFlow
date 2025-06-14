@@ -89,7 +89,7 @@ export default function Signup() {
         </button>
 
         {status === 'success' && (
-          <p className="text-green-600 text-sm text-center">🎉 You’ve been added to the list!</p>
+          <p className="text-green-600 text-sm text-center">🎉 You&apos;ve been added to the list!</p>
         )}
       </form>
     </motion.section>
