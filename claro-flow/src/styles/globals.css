@@ -30,3 +30,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-shadow-outline {
+  text-shadow:
+    -4px -4px 0 #000,
+     4px -4px 0 #000,
+    -4px  4px 0 #000,
+     4px  4px 0 #000;
+}

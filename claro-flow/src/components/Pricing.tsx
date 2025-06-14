@@ -46,15 +46,18 @@ export default function Pricing() {
   };
 
   return (
-    <section id="pricing" className="py-24 px-6 md:px-12 bg-blue-50 text-gray-800">
-      <div className="max-w-4xl mx-auto mb-12 text-center">
-        <h2 className="text-4xl font-bold mb-4">Choose Your Plan</h2>
-        <p className="text-gray-600 text-lg">Flexible pricing for every stage of your team's journey.</p>
+    <section id="pricing" className="relative py-24 px-6 md:px-12 bg-blue-50 text-gray-800">
+      <div className="section-background absolute inset-0 overflow-hidden">
+        <img src="https://cdn.svgator.com/images/2022/06/svg-background-geometric-shapes.svg" className="w-[100%] kg-image lightense-target" alt="Background with geometric shapes changing focus" loading="lazy" />
+      </div>
+      <div className="z-30 relative max-w-4xl mx-auto mb-12 text-center">
+        <h2 className="text-4xl font-bold mb-4 text-white">Choose Your Plan</h2>
+        <p className="text-gray-100 text-lg">Flexible pricing for every stage of your team's journey.</p>
       </div>
 
       <motion.div
         ref={ref}
-        className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto"
+        className="z-30 relative grid md:grid-cols-3 gap-8 max-w-6xl mx-auto"
       >
         {tiers.map((tier, i) => (
           <motion.div

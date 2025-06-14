@@ -23,7 +23,7 @@ export default function CTA() {
       initial="hidden"
       animate={controls}
       variants={variant}
-      className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 md:px-12 text-center rounded-t-3xl"
+      className="bg-gradient-to-b from-blue-600 to-indigo-900 text-white py-20 px-6 md:px-12 text-center rounded-t-3xl"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
         Ready to streamline your workflow?

@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import React from 'react';
+// import VortexSvg from '../assets/vortex';
 
 export default function Signup() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -36,8 +38,12 @@ export default function Signup() {
         hidden: { opacity: 0, y: 30 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
       }}
-      className="py-24 px-6 md:px-12 bg-white text-gray-800"
+      className=" relative py-24 px-6 md:px-12 bg-white text-gray-800"
     >
+      <div className="section-background absolute inset-0 overflow-hidden">
+       {/* <img src={VortexSvg} alt="My Awesome Icon" /> */}
+       {/* <VortexSvg  /> */}
+       </div>
       <div className="max-w-xl mx-auto text-center mb-8">
         <h2 className="text-4xl font-bold mb-4">Join the Waitlist</h2>
         <p className="text-gray-600 text-lg">Sign up and be the first to know when ClaroFlow launches!</p>

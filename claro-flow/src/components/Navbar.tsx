@@ -10,7 +10,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="w-full px-6 md:px-12 py-4 flex justify-between items-center shadow-sm bg-white/70 backdrop-blur-sm fixed top-0 z-50">
+    <nav className="  w-full px-6 md:px-12 py-4 flex justify-between items-center shadow-sm bg-white/70 backdrop-blur-sm fixed top-0 z-50">
       {/* Logo */}
       <div className="text-xl font-bold text-blue-600">ClaroFlow</div>
 
