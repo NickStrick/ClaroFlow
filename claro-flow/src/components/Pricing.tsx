@@ -52,7 +52,7 @@ export default function Pricing() {
       </div>
       <div className="z-30 relative max-w-4xl mx-auto mb-12 text-center">
         <h2 className="text-4xl font-bold mb-4 text-white">Choose Your Plan</h2>
-        <p className="text-gray-100 text-lg">Flexible pricing for every stage of your team's journey.</p>
+        <p className="text-gray-100 text-lg">Flexible pricing for every stage of your team&apos;s journey.</p>
       </div>
 
       <motion.div
