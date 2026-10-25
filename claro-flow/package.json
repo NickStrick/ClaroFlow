@@ -12,10 +12,14 @@
     "framer-motion": "^10.12.16",
     "geist": "^1.2.0",
     "lucide-react": "^0.513.0",
-    "next": "^15.3.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-intersection-observer": "^9.16.0"
+    "react-intersection-observer": "^9.16.0",
+    "lval":"1.1.2",
+    "next": "13.4.1",
+    "axios": "0.21.1",
+    "lodash": "4.17.15",
+    "jose": "4.13.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
