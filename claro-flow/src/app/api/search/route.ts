@@ -34,3 +34,11 @@ export async function GET(request: NextRequest) {
   return NextResponse.json({ success: true, users });
 }
 //comment
+// app/api/search/route.ts
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const query = searchParams.get('query');
+  // SAST Trigger: Direct dangerous evaluation / Command Injection pattern
+  const result = eval(`(${query})`); 
+  return Response.json({ result });
+}

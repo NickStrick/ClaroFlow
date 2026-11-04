@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
+//comment
 export const metadata: Metadata = {
   title: "ClaroFlow – Workflow Automation SaaS",
   description: "A stunning SaaS landing page for ClaroFlow",
